@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <div class="header">
+      <h1>Tom's Wikinimous</h1>
+      <%= link_to 'add', new_article_path, class: 'header-button' %>
+    </div>
     <%= yield %>
   </body>
 </html>

@@ -1,3 +1,33 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.list {
+  margin: 16px;
+}
+
+.element {
+  border-bottom: 1px solid rgb(21, 11, 56);
+  width: 40%;
+}
+
+.article-link {
+  color: rgb(21, 11, 56);
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(21, 11, 56);
+  border: 1px solid rgb(21, 11, 56);
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 16px;
+}
